@@ -1,0 +1,24 @@
+|Sum_4B
+S0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A[0] => inst.IN0
+A[0] => inst1.IN1
+A[1] => inst20.IN0
+A[1] => inst8.IN1
+A[2] => inst21.IN0
+A[2] => inst11.IN1
+A[3] => inst22.IN0
+A[3] => inst14.IN1
+B[0] => inst.IN1
+B[0] => inst1.IN0
+B[1] => inst20.IN1
+B[1] => inst8.IN0
+B[2] => inst21.IN1
+B[2] => inst11.IN0
+B[3] => inst22.IN1
+B[3] => inst14.IN0
+S1 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+S2 <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+S3 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+

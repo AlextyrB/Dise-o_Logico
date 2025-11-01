@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\VirtualDJ\trabajos\Multiplicador\simulation\qsim
+vMultiplicador
+Z1 IYoU=RTLRbWW]9PhY4P7fC1
+Z2 VbdJ4TG?GXA3ZZVm7C:0Uz3
+Z3 dD:\VirtualDJ\trabajos\Multiplicador\simulation\qsim
+Z4 w1761324962
+Z5 8Multiplicador.vo
+Z6 FMultiplicador.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Multiplicador.vo|
+Z9 o-work work -O0
+Z10 n@multiplicador
+!i10b 1
+Z11 !s100 2VnHcQVCo2hm6OO?joGz@3
+!s85 0
+Z12 !s108 1761324961.859000
+Z13 !s107 Multiplicador.vo|
+!s101 -O0
+vMultiplicador_vlg_check_tst
+!i10b 1
+!s100 ai3?NVD7lV08aEkDbEa:L0
+IoRoe9D_@0688^KjX[=kO=2
+Z14 VPnF>@Ia[j0n6MP@8;iQ_C0
+R3
+R4
+Z15 8Multiplicador.vt
+Z16 FMultiplicador.vt
+L0 71
+R7
+r1
+!s85 0
+31
+Z17 !s108 1761324962.033000
+Z18 !s107 Multiplicador.vt|
+Z19 !s90 -work|work|Multiplicador.vt|
+!s101 -O0
+R9
+Z20 n@multiplicador_vlg_check_tst
+vMultiplicador_vlg_sample_tst
+!i10b 1
+Z21 !s100 RfamzD23MY12mVNInUZ;D1
+Z22 I0EhKAe@;LWV<4YMOUTmDg0
+Z23 V9EE_:5Y@dYffQmCo;71oz3
+R3
+R4
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+Z24 n@multiplicador_vlg_sample_tst
+vMultiplicador_vlg_vec_tst
+!i10b 1
+!s100 eAZN<<AOBPH[8Mka4I7b52
+I3^igha924HL??><f@c2MD1
+Z25 VoCDl7G_kLe;mBmiBINM5[3
+R3
+R4
+R15
+R16
+L0 355
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+Z26 n@multiplicador_vlg_vec_tst

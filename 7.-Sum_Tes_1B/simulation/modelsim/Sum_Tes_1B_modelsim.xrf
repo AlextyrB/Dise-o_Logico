@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Alexis/Documents/FES ARAGON/Quinto_semestre/Diseño_logico/trabajos/8.-Sum_Tes_1B/Sum_Tes_1B.bdf
+source_file = 1, C:/Users/Alexis/Documents/FES ARAGON/Quinto_semestre/Diseño_logico/trabajos/8.-Sum_Tes_1B/db/Sum_Tes_1B.cbx.xml
+design_name = Sum_Tes_1B
+instance = comp, \Cin_Pin~I , Cin_Pin, Sum_Tes_1B, 1
+instance = comp, \B~I , B, Sum_Tes_1B, 1
+instance = comp, \A~I , A, Sum_Tes_1B, 1
+instance = comp, \inst5~0 , inst5~0, Sum_Tes_1B, 1
+instance = comp, \Sel~I , Sel, Sum_Tes_1B, 1
+instance = comp, \inst9~0 , inst9~0, Sum_Tes_1B, 1
+instance = comp, \Su_Re~I , Su_Re, Sum_Tes_1B, 1
+instance = comp, \C_P_O~I , C_P_O, Sum_Tes_1B, 1

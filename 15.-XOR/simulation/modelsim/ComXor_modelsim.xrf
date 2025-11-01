@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Alexis/Documents/FES ARAGON/Quinto_semestre/Diseño_logico/trabajos/15.-XOR/ComXor.bdf
+source_file = 1, C:/Users/Alexis/Documents/FES ARAGON/Quinto_semestre/Diseño_logico/trabajos/15.-XOR/db/ComXor.cbx.xml
+design_name = ComXor
+instance = comp, \R3~output , R3~output, ComXor, 1
+instance = comp, \R2~output , R2~output, ComXor, 1
+instance = comp, \R1~output , R1~output, ComXor, 1
+instance = comp, \R0~output , R0~output, ComXor, 1
+instance = comp, \A[3]~input , A[3]~input, ComXor, 1
+instance = comp, \B[3]~input , B[3]~input, ComXor, 1
+instance = comp, \B[2]~input , B[2]~input, ComXor, 1
+instance = comp, \A[2]~input , A[2]~input, ComXor, 1
+instance = comp, \A[1]~input , A[1]~input, ComXor, 1
+instance = comp, \B[1]~input , B[1]~input, ComXor, 1
+instance = comp, \B[0]~input , B[0]~input, ComXor, 1
+instance = comp, \A[0]~input , A[0]~input, ComXor, 1

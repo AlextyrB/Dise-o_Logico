@@ -1,0 +1,15 @@
+|ComOr
+R0 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+B[0] => inst7.IN0
+B[1] => inst6.IN0
+B[2] => inst5.IN0
+B[3] => inst4.IN0
+A[0] => inst7.IN1
+A[1] => inst6.IN1
+A[2] => inst5.IN1
+A[3] => inst4.IN1
+R1 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+R2 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+R3 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,78 @@
+|Sumfull
+S4 <= Sumfin4bitsV2:inst.s4
+A0 => Sumfin4bitsV2:inst.A0
+A1 => Sumfin4bitsV2:inst.A1
+A2 => Sumfin4bitsV2:inst.A2
+A3 => Sumfin4bitsV2:inst.A3
+B0 => Sumfin4bitsV2:inst.B0
+B1 => Sumfin4bitsV2:inst.B1
+B2 => Sumfin4bitsV2:inst.B2
+B3 => Sumfin4bitsV2:inst.B3
+CIN => Sumfin4bitsV2:inst.Cin
+S3 <= Sumfin4bitsV2:inst.S3
+S0 <= Sumfin4bitsV2:inst.S0
+S1 <= Sumfin4bitsV2:inst.S1
+S2 <= Sumfin4bitsV2:inst.S2
+
+
+|Sumfull|Sumfin4bitsV2:inst
+S0 <= Sumfin:inst.S
+Cin => Sumfin:inst.A
+A0 => Sumfin:inst.B
+B0 => Sumfin:inst.Ci
+S1 <= Sumfin:inst3.S
+A1 => Sumfin:inst3.B
+B1 => Sumfin:inst3.Ci
+S2 <= Sumfin:inst4.S
+A2 => Sumfin:inst4.B
+B2 => Sumfin:inst4.Ci
+S3 <= Sumfin:inst5.S
+A3 => Sumfin:inst5.B
+B3 => Sumfin:inst5.Ci
+s4 <= Sumfin:inst5.Co
+
+
+|Sumfull|Sumfin4bitsV2:inst|Sumfin:inst
+Co <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+A => inst.IN0
+B => inst3.IN1
+B => inst.IN1
+Ci => inst2.IN1
+Ci => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Sumfull|Sumfin4bitsV2:inst|Sumfin:inst3
+Co <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+A => inst.IN0
+B => inst3.IN1
+B => inst.IN1
+Ci => inst2.IN1
+Ci => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Sumfull|Sumfin4bitsV2:inst|Sumfin:inst4
+Co <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+A => inst.IN0
+B => inst3.IN1
+B => inst.IN1
+Ci => inst2.IN1
+Ci => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Sumfull|Sumfin4bitsV2:inst|Sumfin:inst5
+Co <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+A => inst.IN0
+B => inst3.IN1
+B => inst.IN1
+Ci => inst2.IN1
+Ci => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+

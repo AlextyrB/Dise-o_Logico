@@ -1,0 +1,61 @@
+|SumV2
+S2 <= Sumfin:inst4.S
+Cin => Sumfin:inst.A
+A3 => Sumfin:inst.B
+B3 => Sumfin:inst.Ci
+A2 => Sumfin:inst3.B
+B2 => Sumfin:inst3.Ci
+A1 => Sumfin:inst4.B
+B1 => Sumfin:inst4.Ci
+S4 <= Sumfin:inst.S
+S3 <= Sumfin:inst3.S
+S1 <= Sumfin:inst5.S
+A0 => Sumfin:inst5.B
+B0 => Sumfin:inst5.Ci
+S0 <= Sumfin:inst5.Co
+
+
+|SumV2|Sumfin:inst4
+Co <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+A => inst.IN0
+B => inst3.IN1
+B => inst.IN1
+Ci => inst2.IN1
+Ci => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumV2|Sumfin:inst3
+Co <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+A => inst.IN0
+B => inst3.IN1
+B => inst.IN1
+Ci => inst2.IN1
+Ci => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumV2|Sumfin:inst
+Co <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+A => inst.IN0
+B => inst3.IN1
+B => inst.IN1
+Ci => inst2.IN1
+Ci => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumV2|Sumfin:inst5
+Co <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+A => inst.IN0
+B => inst3.IN1
+B => inst.IN1
+Ci => inst2.IN1
+Ci => inst1.IN1
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+

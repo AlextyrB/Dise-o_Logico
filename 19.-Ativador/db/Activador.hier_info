@@ -1,0 +1,27 @@
+|Activador
+pin_name10 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+pin_name1 => inst.DATAIN
+Enable => inst.OE
+Enable => inst1.OE
+Enable => inst2.OE
+Enable => inst3.OE
+Enable => inst4.OE
+Enable => inst6.OE
+Enable => inst7.OE
+pin_name11 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+pin_name2 => inst1.DATAIN
+pin_name12 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+pin_name3 => inst2.DATAIN
+pin_name13 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+pin_name4 => inst3.DATAIN
+pin_name14 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+pin_name5 => inst4.DATAIN
+pin_name15 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+pin_name6 => inst5.DATAIN
+pin_name16 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+pin_name7 => inst6.DATAIN
+pin_name17 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+pin_name8 => inst7.DATAIN
+pin_name9 => ~NO_FANOUT~
+
+

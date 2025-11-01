@@ -1,0 +1,22 @@
+|Comp_1B
+aMenorb <= inst16.DB_MAX_OUTPUT_PORT_TYPE
+A[0] => inst5.IN0
+A[0] => inst4.IN0
+A[1] => inst6.IN0
+A[1] => inst3.IN0
+A[2] => inst7.IN0
+A[2] => inst2.IN0
+A[3] => inst8.IN0
+A[3] => inst.IN0
+B[0] => inst13.IN1
+B[0] => inst4.IN1
+B[1] => inst10.IN1
+B[1] => inst3.IN1
+B[2] => inst11.IN1
+B[2] => inst2.IN1
+B[3] => inst12.IN1
+B[3] => inst.IN1
+igual <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+amayorb <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+
+

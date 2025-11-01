@@ -1,0 +1,95 @@
+|Sum_Tes_4B_E
+Cou_Pou <= Sum_Res_4B:inst.Cou_Pou
+Sel => Sum_Res_4B:inst.Sel
+A3 => Sum_Res_4B:inst.A3
+A2 => Sum_Res_4B:inst.A2
+A1 => Sum_Res_4B:inst.A1
+A0 => Sum_Res_4B:inst.A0
+B3 => Sum_Res_4B:inst.B3
+B2 => Sum_Res_4B:inst.B2
+B1 => Sum_Res_4B:inst.B1
+B0 => Sum_Res_4B:inst.B0
+Cin_Pin => Sum_Res_4B:inst.Cin_Pin
+S_R3 <= Sum_Res_4B:inst.S_R3
+S_R2 <= Sum_Res_4B:inst.S_R2
+S_R1 <= Sum_Res_4B:inst.S_R1
+S_R0 <= Sum_Res_4B:inst.S_R0
+
+
+|Sum_Tes_4B_E|Sum_Res_4B:inst
+Cou_Pou <= Sum_Tes_1B:inst.C_P_O
+A3 => Sum_Tes_1B:inst.A
+B3 => Sum_Tes_1B:inst.B
+A2 => Sum_Tes_1B:inst1.A
+B2 => Sum_Tes_1B:inst1.B
+A1 => Sum_Tes_1B:inst2.A
+B1 => Sum_Tes_1B:inst2.B
+A0 => Sum_Tes_1B:inst3.A
+B0 => Sum_Tes_1B:inst3.B
+Cin_Pin => Sum_Tes_1B:inst3.Cin_Pin
+Sel => Sum_Tes_1B:inst3.Sel
+Sel => Sum_Tes_1B:inst2.Sel
+Sel => Sum_Tes_1B:inst1.Sel
+Sel => Sum_Tes_1B:inst.Sel
+S_R3 <= Sum_Tes_1B:inst.Su_Re
+S_R2 <= Sum_Tes_1B:inst1.Su_Re
+S_R1 <= Sum_Tes_1B:inst2.Su_Re
+S_R0 <= Sum_Tes_1B:inst3.Su_Re
+
+
+|Sum_Tes_4B_E|Sum_Res_4B:inst|Sum_Tes_1B:inst
+Su_Re <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst10.IN0
+Cin_Pin => inst4.IN1
+Cin_Pin => inst7.IN1
+Cin_Pin => inst8.IN1
+B => inst5.IN1
+B => inst8.IN0
+B => inst6.IN1
+C_P_O <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Sel => inst10.IN1
+
+
+|Sum_Tes_4B_E|Sum_Res_4B:inst|Sum_Tes_1B:inst1
+Su_Re <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst10.IN0
+Cin_Pin => inst4.IN1
+Cin_Pin => inst7.IN1
+Cin_Pin => inst8.IN1
+B => inst5.IN1
+B => inst8.IN0
+B => inst6.IN1
+C_P_O <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Sel => inst10.IN1
+
+
+|Sum_Tes_4B_E|Sum_Res_4B:inst|Sum_Tes_1B:inst2
+Su_Re <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst10.IN0
+Cin_Pin => inst4.IN1
+Cin_Pin => inst7.IN1
+Cin_Pin => inst8.IN1
+B => inst5.IN1
+B => inst8.IN0
+B => inst6.IN1
+C_P_O <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Sel => inst10.IN1
+
+
+|Sum_Tes_4B_E|Sum_Res_4B:inst|Sum_Tes_1B:inst3
+Su_Re <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+A => inst4.IN0
+A => inst10.IN0
+Cin_Pin => inst4.IN1
+Cin_Pin => inst7.IN1
+Cin_Pin => inst8.IN1
+B => inst5.IN1
+B => inst8.IN0
+B => inst6.IN1
+C_P_O <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+Sel => inst10.IN1
+
+

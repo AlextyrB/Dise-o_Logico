@@ -1,0 +1,15 @@
+|ComAnd
+R2 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A[0] => inst3.IN0
+A[1] => inst2.IN0
+A[2] => inst1.IN0
+A[3] => inst.IN0
+B[0] => inst3.IN1
+B[1] => inst2.IN1
+B[2] => inst1.IN1
+B[3] => inst.IN1
+R1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+R0 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+R3 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
